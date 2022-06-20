@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="css/accessibility.css" />
+
+    <title>Landing page</title>
+  </head>
+  <body onload="myFunction()">
+
+  <div id="loading">
+  </div>
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="aces">
+      <i class="fas fa-arrow-circle-up"></i>
+    </button>
+
+  
+    <div class="topnav fixed-top " id="myTopnav">
+      <div class="navvv">
+        <div class="logo">
+          <a href="landing.html" class="active">आहा</a>
+        </div>
+        <a class="aces" href="contact.html"> CONTACT US</a>
+        <a class="aces" href="project.html">PROJECTS</a>
+        <a class="aces" href="services.html">SERVICES</a>
+        <a class="aces" href="about.html">ABOUT US</a>
+        <a href="javascript:void(0);" class="icon"  aria-label="nav" onclick="myFunction()">
+          <i class="fa fa-bars "></i>
+        </a>
+      </div>
+    </div>
+ 
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide carousel-fade aces"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active aces"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+        class="aces"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+        class="aces"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner aces">
+        <div class="carousel-item active">
+          <img src="img/slider1.jpg" class="d-block w-100" alt="image" />
+          <div class="carousel-caption">
+            <h1 class="p-3 mb-2 bg-dark text-white aces">INTERIOR DESIGN</h1>
+
+            <h2 class="text-dark bg-white aces">
+              The good designing your sweet home deserves
+            </h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider2.jpg" class="d-block w-100" alt="image"">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="p-3 mb-2 bg-dark text-white aces">INTERIOR DESIGN</h1>
+            <h2 class="text-dark bg-white aces">
+              The good designing your sweet home deserves
+            </h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider3.jpg" class="d-block w-100" alt="image" />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="p-3 mb-2 bg-dark text-white aces">INTERIOR DESIGN</h1>
+            <h2 class="text-dark bg-white aces">
+              The good designing your sweet home deserves
+            </h2>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container">
+      <form class="s aces">
+        <input
+          type="search"
+          class="sb aces"
+          name="q"
+          autocomplete="on"
+          placeholder="What would you like to search for?"
+        />
+        <button type="submit" class="sbtn fa fa-search aces" aria-label="search" ></button>
+      </form>
+
+
+      <div class="top aces"> 
+        <a class="btn-search aces" href="#"><i class="fa fa-search aces" aria-label="search" ></i></a>
+      </div>
+
+      <section id="home" class="home container-fluid p-0">
+
+
+        <div class="counting">
+          <div class="box">
+            <h2 class="count aces" data-count="1900">1900+</h2>
+            <h3 class="aces">working hours</h3>
+          </div>
+
+          <div class="box">
+            <h2 class="count aces" data-count="12">12+</h2>
+            <h3 class="aces">awards</h3>
+          </div>
+
+          <div class="box">
+            <h2 class="count aces" data-count="1500">1500+</h2>
+            <h3 class="aces">clients</h3>
+          </div>
+
+          <div class="box">
+            <h2 class="count aces" data-count="350">350+</h2>
+            <h3 class="aces">projects</h3>
+          </div>
+        </div>
+      </section>
+
+
+
+    <div class='container'> <button type="button" class="btn btn-dark mx-auto aces" style="font-size:20px; margin-bottom:10px;" data-toggle="modal" data-target="#exampleModal1"> ACCESSIBILITY</button> </div>
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content col-12">
+            <div class="modal-header">
+                <h5 class="modal-title aces">accessibility</h5> <button type="button" class="close" data-dismiss="modal" aria-label="Close aces"> <span aria-hidden="true">&times;</span> </button>
+            </div>
+            <div class="modal-body">
+
+<span class="badge bg-dark">  <a class="aces" href="#" id="increase"style="text-decoration:none">increase</a> </span>
+<span class="badge bg-dark">  <a class="aces" href="#" id="decrease" style="text-decoration:none">decrease</a> </span>
+<span class="badge bg-dark"> <a class="aces" href="#" id="grayscale" style="text-decoration:none">grayscale</a> </span>
+<span class="badge bg-dark"> <a class="aces" href="#" id="invert" style="text-decoration:none">invert</a> </span>
+<span class="badge bg-dark"> <a class="aces" href=" " id="reset" style="text-decoration:none">reset</a></span>
+
+            </div>
+            
+        </div>
+    </div>
+</div>
+</div>
+
+ <input type="hidden" id="incid"  value="1">
+<input type="hidden" id="unknown"  value="1">
+ <input type="hidden" id="decid"  value="1">
+</div>
+
+
+      <!-- GALLERY -->
+
+
+<div class="container">
+      <div class="lightbox">
+        <div class="row">
+          <div class="col-lg-6">
+            <img
+              src="img/gall5.jpg"
+              data-mdb-img="img/gall5.jpg"
+              alt=" image 1"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+            />
+            <img
+              src="img/gall4.jpg"
+              data-mdb-img="img/gall4.jpg"
+              alt=" image 2"
+              class="w-100 shadow-1-strong rounded"
+            />
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="img/gall2.jpg"
+              data-mdb-img="img/gall2.jpg"
+              alt="image 3"
+              class="w-100 shadow-1-strong rounded"
+            />
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- GALLERY END -->
+    </div>
+
+    <!-- project section starts -->
+
+    <section id="project" class="project">
+      <div class="heading aces">OUR PORTFOLIO</div>
+
+      <div class="box-container mx-auto">
+        <div class="box">
+          <img src="img/port.jpg" alt="image" title="image" />
+        </div>
+
+        <div class="box">
+          <img src="img/port1.jpg" alt="image" title="image" />
+        </div>
+
+        <div class="box">
+          <img src="img/port2.jpg" alt="image" title="image" />
+        </div>
+
+        <div class="box">
+          <img src="img/port3.jpg" alt="image" title="image" />
+        </div>
+
+        <div class="box">
+          <img src="img/port4.jpg" alt="image" title="image" />
+        </div>
+
+        <div class="box">
+          <img src="img/port5.jpg" alt="image" title="image" />
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- project section ends -->
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/_Ecl_XEETEA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div
+          class="col-md-6 col-12 d-md-flex flex-column justify-content-center"
+        >
+          <h4 class="aces">AAHAA'S LATEST PROJECT</h4>
+          <h5 class="aces">
+            This is the our team's latest project of interior design where we
+            team have worked really hard to make this look beautiful. We have
+            spend our lot of time in designing all these rooms. They have turned
+            out to be really good.
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row d-flex justify-content-center mt-100 mb-100">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4 class="card-title aces">Latest Comments</h4>
+            </div>
+            <div class="comment-widgets">
+              <!-- Comment Row -->
+              <div class="d-flex flex-row comment-row m-t-0">
+                <div class="p-2">
+                  <img
+                    src="img/about1.png"
+                    alt="user"
+                    width="50"
+                    class="rounded-circle"
+                  />
+                </div>
+                <div class="comment-text w-100">
+                  <h3 class="font-medium aces">Ashmita Devkota</h3>
+                  <span class="m-b-15 d-block aces"
+                    >The servive is really good. I would love to comeback again.
+                  </span>
+                  <div class="comment-footer">
+                    <span class="text-muted float-right aces">May 27, 2021</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Comment Row -->
+              <div class="d-flex flex-row comment-row">
+                <div class="p-2">
+                  <img
+                    src="img/2021-04-26.png"
+                    alt="user"
+                    width="50"
+                    class="rounded-circle"
+                  />
+                </div>
+                <div class="comment-text active w-100">
+                  <h3 class="font-medium aces">Suman Khanal</h3>
+                  <span class="m-b-15 d-block aces"
+                    >I would love to work with you.
+                  </span>
+                  <div class="comment-footer">
+                    <span class="text-muted float-right aces">May 10, 2020</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Comment Row -->
+              <div class="d-flex flex-row comment-row">
+                <div class="p-2">
+                  <img
+                    src="img/phtot.png"
+                    alt="user"
+                    width="50"
+                    class="rounded-circle"
+                  />
+                </div>
+                <div class="comment-text w-100">
+                  <h3 class="font-larfe aces">Jerry Baram</h3>
+                  <span class="m-b-15 d-block aces"
+                    >The team members are really.
+                  </span>
+                  <div class="comment-footer">
+                    <span class="text-muted float-right aces">August 26, 2019</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="container-fluid footer">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="design aces">We help design your room.</div>
+        </div>
+
+        <div class="col-lg-3">
+          <h2 class="aces">Address</h2>
+          <div class="list">
+            <p class="aces">Khursanitar,</p>
+            <p class="aces">Lazimpat-02,</p>
+            <p class="aces">Kathmandu</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <h2>follow us</h2>
+          <div class="icons">
+            <a
+              href="#"
+              data-mdb-toggle="tooltip"
+              title="facebook"
+              class="fab fa-facebook-f aces"
+            ></a>
+            <a
+              href="#"
+              data-mdb-toggle="tooltip"
+              title="twitter"
+              class="fab fa-twitter aces"
+            ></a>
+            <a
+              href="#"
+              data-mdb-toggle="tooltip"
+              title="instagram"
+              class="fab fa-instagram aces"
+            ></a>
+            <a
+              href="#"
+              data-mdb-toggle="tooltip"
+              title="pinterest"
+              class="fab fa-pinterest aces"
+            ></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 text-center text-lg-left letter">
+          <h2 class="aces">Subscribe</h2>
+
+          <input class="aces" type="email" placeholder="enter your email" />
+          <input class="aces" type="submit" placeholder="subscribe" />
+        </div>
+      </div>
+
+      <h1 class="credit aces">Copyright 2020 | All rights reserved</h1>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+
+
+<!-- jquery file link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- magnific popup link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    
+    
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+
+    
+    
+    
+    <script src="javascript/landing.js"></script>
+    <script src="javascript/gototop.js"></script>
+    <script src="javascript/accessibility.js"></script>
+ <script>
+var preloader = document.getElementById('loading');
+function myFunction(){
+  preloader.style.display = 'none';
+}
+    </script>
+  </body>
+</html>

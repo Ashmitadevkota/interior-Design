@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
+
+/* navigation */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding: 0;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Laila", sans-serif;
+}
+
+.topnav a:hover {
+  color: rgba(157, 154, 154, 0.571);
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+.logo a:hover {
+  color: rgba(157, 154, 154, 0.571);
+}
+.navvv {
+  padding-right: 15%;
+}
+
+.logo a {
+  padding-left: 15%;
+  text-decoration: none;
+  float: left;
+  font-size: 40px;
+  font-family: "Laila", sans-serif;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  font-weight: bolder;
+}
+
+/* end nav */
+
+img {
+  width: 50%;
+  height: 500px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.not-found {
+  font-size: 220px;
+  font-weight: 700;
+  font-family: "Girassol", cursive;
+}
+
+.oops-text {
+  background: rgb(8, 8, 8);
+  padding: 10px;
+  color: rgb(255, 248, 248);
+  border-radius: 7px;
+}
+
+.not-found-text {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+}
+
+.send {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  border-radius: 54px;
+  font-family: "Manrope", sans-serif;
+  box-shadow: 2px 3px #dc3545;
+}
+.send a {
+  text-decoration: none;
+  color: white;
+}
+
+.send:hover {
+  color: #fff;
+  background-color: #d65b67a3;
+  border-color: #dc3545;
+  border-radius: 54px;
+  box-shadow: 2px 3px #dc3545;
+}
+
+/*footer  starts */
+
+.footer {
+  background: #333;
+  text-align: center;
+  font-family: "Laila", sans-serif;
+  margin-top: 5%;
+}
+
+.footer .row {
+  width: 90%;
+  margin-left: 6%;
+
+  padding-top: 40px;
+}
+
+.footer .row .col-md-3 {
+  margin: 1rem 0;
+}
+
+.footer h2 {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.design {
+  font-family: "Leckerli One", cursive;
+  font-size: 35px;
+  margin-left: 20%;
+  color: rgb(255, 255, 255);
+}
+
+.footer p {
+  font-size: 0.5rem;
+  color: #ccc;
+}
+
+.footer .list p {
+  display: flex;
+  flex-flow: column;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.footer .letter p {
+  font-size: 2rem;
+}
+
+.footer .letter input[type="email"] {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0 1rem;
+  color: #fff;
+  height: 2.5rem;
+  width: 70%;
+  border: 0.1rem solid #fff;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.footer .letter input[type="submit"] {
+  outline: none;
+  border: none;
+  background: #fff;
+  margin: 1rem 0;
+  width: 10rem;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+}
+
+.footer .letter input[type="submit"]:hover {
+  background: #b83030cd;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer .credit {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  margin-bottom: 0;
+  border-top: 0.1rem solid #aaa;
+  letter-spacing: 0.2rem;
+}
+
+.icons a {
+  font-size: 1.4rem;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.icons a:hover {
+  background: #b83030cd;
+}
+/* footer ends */
+
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

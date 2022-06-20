@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
+
+body {
+  margin: 0;
+  background-color: #f3efe8;
+}
+
+/* navigation */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding: 0;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Laila", sans-serif;
+}
+
+.topnav a:hover {
+  /* background-color: #ddd; */
+  color: rgba(157, 154, 154, 0.571);
+}
+
+.topnav a.active {
+  /* background-color: #4CAF50; */
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+.logo a:hover {
+  color: rgba(157, 154, 154, 0.571);
+}
+.navvv {
+  padding-right: 15%;
+}
+
+.logo a {
+  padding-left: 15%;
+  text-decoration: none;
+  float: left;
+  font-size: 40px;
+  font-family: "Laila", sans-serif;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  font-weight: bolder;
+}
+
+/*navigation ends */
+.container {
+  margin-top: 3%;
+}
+/* about*/
+
+.about {
+  /* min-height: 100vh; */
+  padding-bottom: 0rem;
+}
+
+.about .image {
+  padding: 2rem;
+}
+
+.about .image img {
+  height: 30rem;
+  object-fit: cover;
+  box-shadow: 2.5rem 2.5rem 0 1rem rgba(157, 154, 154, 0.571);
+}
+
+.about .info {
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.about .info h2 {
+  color: #544c4ccd;
+  font-size: 2.5rem;
+}
+
+.about .info p {
+  font-size: 1rem;
+  color: #444;
+  margin: 2rem 0;
+}
+
+.about .info .icons a {
+  font-size: 2rem;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.about .info .icons a:hover {
+  background: #b83030cd;
+}
+
+.cardd {
+  margin: 1rem auto;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+.card-bodyy {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.text {
+  width: fit-content;
+  background: rgb(45, 44, 44);
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  opacity: 0.8;
+  font-family: cursive;
+}
+
+/*about ends */
+
+.container1-fluid {
+  margin-top: 90px !important;
+}
+
+p {
+  font-size: 17px;
+  margin-bottom: 7px;
+}
+
+.small {
+  letter-spacing: 0.5px !important;
+}
+
+.card-header img {
+  border: 5px solid white !important;
+}
+
+.outside {
+  position: inherit;
+  top: -50%;
+}
+
+.card {
+  border-radius: 20px !important;
+  box-shadow: 2px 2px 5px 0px rgb(100, 108, 170);
+  transition: 0.8s;
+}
+
+.card-header {
+  border-radius: 20px !important;
+}
+
+.card-footer {
+  border-radius: 20px !important;
+}
+
+hr {
+  background-color: rgb(146, 154, 236);
+  border: 1px solid;
+  border-radius: 20px;
+  color: rgb(146, 154, 236);
+  height: 5px;
+  width: 70px !important;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.profile-pic {
+  margin-bottom: -5px !important;
+}
+
+.quotes {
+  position: relative;
+  top: -10px;
+}
+
+.quotes-down {
+  position: relative;
+  top: -4 px;
+}
+
+.fas {
+  color: rgb(174, 178, 219);
+  cursor: pointer;
+}
+.far {
+  color: rgb(174, 178, 219);
+  cursor: pointer;
+}
+
+.card-footer .fab {
+  font-size: 20px !important;
+}
+
+.card-footer .fab:hover {
+  color: #b83030cd;
+  cursor: pointer;
+}
+
+.name {
+  margin-top: -50px !important;
+}
+
+.container1-fluid:hover .card:not(:hover) {
+  transform: scale(0.9);
+}
+
+@media (max-width: 800px) {
+  .container-fluid:hover .card:not(:hover) {
+    transform: scale(1);
+  }
+}
+
+.containerss {
+  padding-left: 15%;
+  margin-bottom: 0;
+}
+
+/* goto top */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #b83030cd;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 70px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/* end */
+
+/*footer  starts */
+
+.footer {
+  background: #333;
+  text-align: center;
+  font-family: "Laila", sans-serif;
+  margin-top: 5%;
+}
+
+.footer .row {
+  width: 90%;
+  margin-left: 6%;
+  padding-top: 40px;
+}
+
+.footer .row .col-md-3 {
+  margin: 1rem 0;
+}
+
+.footer h2 {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.design {
+  font-family: "Leckerli One", cursive;
+  font-size: 35px;
+  margin-left: 20%;
+  color: rgb(255, 255, 255);
+}
+
+.footer p {
+  font-size: 0.5rem;
+  color: #ccc;
+}
+
+.footer .list p {
+  display: flex;
+  flex-flow: column;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.footer .letter p {
+  font-size: 2rem;
+}
+
+.footer .letter input[type="email"] {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0 1rem;
+  color: #fff;
+  height: 2.5rem;
+  width: 70%;
+  border: 0.1rem solid #fff;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.footer .letter input[type="submit"] {
+  outline: none;
+  border: none;
+  background: #fff;
+  margin: 1rem 0;
+  width: 10rem;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+}
+
+.footer .letter input[type="submit"]:hover {
+  background: #b83030cd;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer .credit {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  margin-bottom: 0;
+  border-top: 0.1rem solid #aaa;
+  letter-spacing: 0.2rem;
+}
+
+.icons a {
+  font-size: 1.4rem;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.icons a:hover {
+  background: #b83030cd;
+}
+/* footer ends */
+
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .text {
+    font-size: 1rem;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 400px) {
+  .text {
+    font-size: 0.5rem;
+    width: fit-content;
+    height: fit-content;
+  }
+}
